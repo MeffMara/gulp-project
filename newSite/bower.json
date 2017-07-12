@@ -1,0 +1,21 @@
+{
+  "name": "newsite",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "meffmara"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/MeffMara/gulp-project",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "normalize-css": "normalize.css#^7.0.0",
+    "jquery": "^3.2.1"
+  }
+}
