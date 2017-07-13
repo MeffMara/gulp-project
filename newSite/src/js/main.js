@@ -6,3 +6,8 @@
  */
 //= partials/app.js
 //
+
+/*
+ *  File: style.scss
+ */
+// Import Bootstrap
