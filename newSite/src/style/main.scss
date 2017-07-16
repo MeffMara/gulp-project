@@ -1,8 +1,25 @@
     @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap.scss";
-    body {
-        background-image: url("../img/P7140001.JPG");
+    .navbar-right>img {
+        width: 250px;
+        height: 120px;
     }
     
-    h1 {
-        font-family: 'arial';
+    .logo-big {
+        float: left;
+        font-family: 'AlexiaFontMedium';
+        font-weight: bold;
+        font-style: normal;
+    }
+    
+    .logo-small {
+        float: left;
+        font-family: 'AlexiaFontMedium';
+        font-weight: lighter;
+        font-style: normal;
+    }
+    
+    .logo-span {
+        position: relative;
+        top: 60px;
+        left: -90px;
     }
