@@ -1,25 +1,39 @@
-    @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap.scss";
-    .navbar-right>img {
-        width: 250px;
-        height: 120px;
-    }
-    
-    .logo-big {
-        float: left;
-        font-family: 'AlexiaFontMedium';
-        font-weight: bold;
-        font-style: normal;
-    }
-    
-    .logo-small {
-        float: left;
-        font-family: 'AlexiaFontMedium';
-        font-weight: lighter;
-        font-style: normal;
-    }
-    
-    .logo-span {
-        position: relative;
-        top: 60px;
-        left: -90px;
-    }
+            @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap.scss";
+            .navbar-right>img {
+                width: 250px;
+                height: 120px;
+            }
+            
+            .logo-block {
+                position: absolute;
+                width: 10em;
+                height: 3em;
+                z-index: 1;
+                margin-left: 3em;
+                .logo-big {
+                    float: left;
+                    position: absolute;
+                    top: -0.5em;
+                    font-family: 'AlexiaFontMedium';
+                    font-weight: bold;
+                    font-style: normal;
+                    color: yellow;
+                    text-shadow: #CCC 1px 0 10px;
+                }
+                .logo-small {
+                    float: left;
+                    position: absolute;
+                    top: -0.2em;
+                    left: 1.5em;
+                    font-family: 'AlexiaFontMedium';
+                    font-weight: lighter;
+                    font-style: normal;
+                    color: gray;
+                    text-shadow: 1px 2px #558ABB;
+                }
+            }
+            
+            .navbar-nav {
+                float: right;
+                margin: 0;
+            }
